@@ -56,91 +56,179 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ##Variables
 "ActivityId": ID of the activity performed (1 to 6)
+
 "SubjectId": ID of the subject performing the activity (1 to 30)
+
 "ActivityLabel": Name corresponding to Activity ID
+
 "TimeBodyAcceleration.mean...X": Mean of the time of acceleration of body (X axis)
+
 "TimeBodyAcceleration.mean...Y": Mean of the time of acceleration of body (Y axis)
+
 "TimeBodyAcceleration.mean...Z": Mean of the time of acceleration of body (Z axis)
+
 "TimeGravityAcceleration.mean...X": Mean of the time of gravity acceleration of body (X axis)
+
 "TimeGravityAcceleration.mean...Y": Mean of the time of gravity acceleration of body (Y axis)
+
 "TimeGravityAcceleration.mean...Z": Mean of the time of gravity acceleration of body (Z axis)
+
 "TimeBodyAccelerationJerk.mean...X": Mean of the time of acceleration Jerk of body (X axis)
+
 "TimeBodyAccelerationJerk.mean...Y": Mean of the time of acceleration Jerk of body (Y axis)
+
 "TimeBodyAccelerationJerk.mean...Z": Mean of the time of acceleration Jerk of body (Z axis)
+
 "TimeBodyGyro.mean...X": Mean of the body gyroscope measurement of time (X axis)
+
 "TimeBodyGyro.mean...Y": Mean of the body gyroscope measurement of time (Y axis)
+
 "TimeBodyGyro.mean...Z": Mean of the body gyroscope measurement of time (Z axis)
+
 "TimeBodyGyroJerk.mean...X": Mean of the body gyroscope measurement Jerk of time (X axis)
+
 "TimeBodyGyroJerk.mean...Y": Mean of the body gyroscope measurement Jerk of time (Y axis)
+
 "TimeBodyGyroJerk.mean...Z": Mean of the body gyroscope measurement Jerk of time (Z axis)
+
 "TimeBodyAccelerationMag.mean..": Mean of the magnitude of body acceleration time
+
 "TimeGravityAccelerationMag.mean..": Mean of the magnitude of gravity acceleration time
+
 "TimeBodyAccelerationJerkMag.mean..": Mean of the magnitude of body acceleration Jerk time
+
 "TimeBodyGyroMag.mean..": Mean of the magnitude of body gyroscope measurement time
+
 "TimeBodyGyroJerkMag.mean..": Mean of the magnitude of body gyroscope measurement Jerk time
+
 "FreqBodyAcceleration.mean...X": Mean of the frequency of acceleration of body (X axis)
+
 "FreqBodyAcceleration.mean...Y": Mean of the frequency of acceleration of body (Y axis)
+
 "FreqBodyAcceleration.mean...Z": Mean of the frequency of acceleration of body (Z axis)
+
 "FreqBodyAcceleration.meanFreq...X": Mean of the frequency (weighted) of acceleration of body (X axis)
+
 "FreqBodyAcceleration.meanFreq...Y": Mean of the frequency (weighted) of acceleration of body (Y axis)
+
 "FreqBodyAcceleration.meanFreq...Z": Mean of the frequency (weighted) of acceleration of body (Z axis)
+
 "FreqBodyAccelerationJerk.mean...X": Mean of the frequency of Jerk acceleration of body (X axis)
+
 "FreqBodyAccelerationJerk.mean...Y": Mean of the frequency of Jerk acceleration of body (Y axis)
+
 "FreqBodyAccelerationJerk.mean...Z": Mean of the frequency of Jerk acceleration of body (Z axis)
+
 "FreqBodyAccelerationJerk.meanFreq...X": Mean of the frequency (weighted) of Jerk acceleration of body (X axis)
+
 "FreqBodyAccelerationJerk.meanFreq...Y": Mean of the frequency (weighted) of Jerk acceleration of body (Y axis)
+
 "FreqBodyAccelerationJerk.meanFreq...Z": Mean of the frequency (weighted) of Jerk acceleration of body (Z axis)
+
 "FreqBodyGyro.mean...X": Mean of frequency gyroscope body measurement (X axis)
+
 "FreqBodyGyro.mean...Y": Mean of frequency gyroscope body measurement (Y axis)
+
 "FreqBodyGyro.mean...Z": Mean of frequency gyroscope body measurement (Z axis)
+
 "FreqBodyGyro.meanFreq...X": Mean of frequency (weighted) gyroscope body measurement (X axis)
+
 "FreqBodyGyro.meanFreq...Y": Mean of frequency (weighted) gyroscope body measurement (Y axis)
+
 "FreqBodyGyro.meanFreq...Z": Mean of frequency (weighted) gyroscope body measurement (Z axis)
+
 "FreqBodyAccelerationMag.mean..": Mean of frequency of body acceleration magnitude 
+
 "FreqBodyAccelerationMag.meanFreq..": Mean of frequency (weighted) of body acceleration magnitude
+
 "FreqBodyBodyAccelerationJerkMag.mean..": Mean of frequency of body acceleration Jerk magnitude
+
 "FreqBodyBodyAccelerationJerkMag.meanFreq..": Mean of frequency (weighted) of body acceleration Jerk magnitude
+
 "FreqBodyBodyGyroMag.mean..": Mean of frequency of body gyroscope magnitude
+
 "FreqBodyBodyGyroMag.meanFreq..": Mean of frequency (weighted) of body gyroscope magnitude
+
 "FreqBodyBodyGyroJerkMag.mean..": Mean of frequency of body gyroscope Jerk magnitude
+
 "FreqBodyBodyGyroJerkMag.meanFreq..": Mean of frequency (weighted) of body gyroscope Jerk magnitude
+
 "angleTimeBodyAccelerationMean.gravity.": Mean of time of angle of body acceleration gravity
+
 "angleTimeBodyAccelerationJerkMean..gravityMean.": Mean of time of angle of body Jerk acceleration gravity
+
 "angleTimeBodyGyroMean.gravityMean.": Mean of time of angle of body gyroscope gravity
+
 "angleTimeBodyGyroJerkMean.gravityMean.": Mean of time of angle of body Jerk gyroscope gravity
+
 "angle.X.gravityMean.": angle to gravity mean (X axis)
+
 "angle.Y.gravityMean.": angle to gravity mean (Y axis)
+
 "angle.Z.gravityMean.": angle to gravity mean (Z axis)
+
 "TimeBodyAcceleration.std...X": Std of the time of acceleration of body (X axis)
+
 "TimeBodyAcceleration.std...Y": Std of the time of acceleration of body (Y axis)
+
 "TimeBodyAcceleration.std...Z": Std of the time of acceleration of body (Z axis)
+
 "TimeGravityAcceleration.std...X": Std of the time of gravity acceleration of body (X axis) 
+
 "TimeGravityAcceleration.std...Y": Std of the time of gravity acceleration of body (Y axis) 
+
 "TimeGravityAcceleration.std...Z": Std of the time of gravity acceleration of body (Z axis) 
+
 "TimeBodyAccelerationJerk.std...X": Std of the time of Jerk acceleration of body (X axis)
+
 "TimeBodyAccelerationJerk.std...Y": Std of the time of Jerk acceleration of body (Y axis)
+
 "TimeBodyAccelerationJerk.std...Z": Std of the time of Jerk acceleration of body (Z axis)
+
 "TimeBodyGyro.std...X": Std of the body gyroscope measurement of time (X axis)
+
 "TimeBodyGyro.std...Y": Std of the body gyroscope measurement of time (Y axis)
+
 "TimeBodyGyro.std...Z": Std of the body gyroscope measurement of time (Z axis)
+
 "TimeBodyGyroJerk.std...X": Std of the body gyroscope Jerk measurement of time (X axis)
+
 "TimeBodyGyroJerk.std...Y": Std of the body gyroscope Jerk measurement of time (Y axis)
+
 "TimeBodyGyroJerk.std...Z": Std of the body gyroscope Jerk measurement of time (Z axis)
+
 "TimeBodyAccelerationMag.std..": Std of the magnitude of body acceleration time
+
 "TimeGravityAccelerationMag.std..": Std of the magnitude of gravity acceleration time
+
 "TimeBodyAccelerationJerkMag.std..": Std of the magnitude of body Jerk acceleration time
+
 "TimeBodyGyroMag.std..": Std of the magnitude of body gryroscope measurement time
+
 "TimeBodyGyroJerkMag.std..": Std of the magnitude of body gryroscope Jerk measurement time
+
 "FreqBodyAcceleration.std...X": Std of the frequency of acceleration of body (X axis)
+
 "FreqBodyAcceleration.std...Y": Std of the frequency of acceleration of body (Y axis)
+
 "FreqBodyAcceleration.std...Z": Std of the frequency of acceleration of body (Z axis)
+
 "FreqBodyAccelerationJerk.std...X": Std of the frequency of Jerk acceleration of body (X axis)
+
 "FreqBodyAccelerationJerk.std...Y": Std of the frequency of Jerk acceleration of body (Y axis)
+
 "FreqBodyAccelerationJerk.std...Z": Std of the frequency of Jerk acceleration of body (Z axis)
+
 "FreqBodyGyro.std...X": Std of frequency gyroscope body measurement (X axis)
+
 "FreqBodyGyro.std...Y": Std of frequency gyroscope body measurement (Y axis)
+
 "FreqBodyGyro.std...Z": Std of frequency gyroscope body measurement (Z axis)
+
 "FreqBodyAccelerationMag.std..": Std of frequency of body acceleration magnitude 
+
 "FreqBodyBodyAccelerationJerkMag.std..": Std of frequency of body acceleration Jerk magnitude 
+
 "FreqBodyBodyGyroMag.std..": Std of frequency of body gyroscope magnitude
+
 "FreqBodyBodyGyroJerkMag.std..": Std of frequency of body gyroscope Jerk magnitude
